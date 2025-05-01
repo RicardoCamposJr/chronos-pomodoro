@@ -1,0 +1,4 @@
+.timer {
+  font-size: clamp(8rem, 25vw, 12.8rem);
+  font-weight: 700;
+}

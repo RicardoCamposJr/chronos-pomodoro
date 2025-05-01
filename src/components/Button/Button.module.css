@@ -1,0 +1,68 @@
+.button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: all 0.1s ease-in-out;
+}
+
+.button a {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: all 0.1s ease-in-out;
+}
+
+.button:hover {
+  filter: brightness(80%);
+}
+
+.small {
+  padding: 1.2rem;
+}
+
+.medium {
+  padding: 2.4rem;
+}
+
+.large {
+  padding: 3.2rem;
+}
+
+.extraLarge {
+  padding: 1.2rem 12.8rem;
+}
+
+/* Modificadores de cor */
+.primary {
+  --button-bg: var(--primary);
+  --button-text: var(--text-over-primary);
+}
+
+.success {
+  --button-bg: var(--success);
+  --button-text: var(--text-over-success);
+}
+
+.warning {
+  --button-bg: var(--warning);
+  --button-text: var(--text-over-warning);
+}
+
+.error {
+  --button-bg: var(--error);
+  --button-text: var(--text-over-error);
+}
+
+.info {
+  --button-bg: var(--info);
+  --button-text: var(--text-over-info);
+}

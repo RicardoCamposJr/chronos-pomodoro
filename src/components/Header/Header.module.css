@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header h1 {
+  font-size: 3.6rem;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.link:hover {
+  filter: brightness(80%);
+}
